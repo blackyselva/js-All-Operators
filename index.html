@@ -1,0 +1,908 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Operators</title>
+</head>
+<body>
+    <h1>OPERATORS</h1>
+
+    <dl>
+        <dt>
+            <h2>What is the Operators?</h2>
+        </dt>
+        <dd>
+            Performs some operation on single or multiple operands (data value) and produces a result.
+        </dd>
+    </dl>
+
+    <ol>
+        <li>Arithmetic Operators</li>
+        <li>Assignment Operators</li>
+        <li>Comparison Operators</li>
+        <li>Logical Operators</li>
+        <li>Conditional (Ternary) Operator</li>
+        <li>Bitwise Operators</li>
+        <li>String Operators</li>
+        <li>Comma Operators</li>
+        <li>BigInt Operators</li>
+        <li>Unary Operators</li>
+        <li>Relational Operators</li>
+    </ol>
+
+    <dl>
+        <dt>
+            <h2>1.Arithmetic Operators</h2>
+        </dt>
+        <dd>
+            Arithmetic operator takes numerical values (either lliterals or variables) as their operands and returns a single numerical value.
+        </dd>
+    </dl>
+
+    <h3>Arithmetic Operators types :</h3>
+
+    <ol type="A">
+        <li>Addition (+)</li>
+        <li>Subtraction (-)</li>
+        <li>Multiplication (*)</li>
+        <li>Division (/)</li>
+        <li>Modulus (%)</li>
+        <li>Exponentiation (**)</li>
+        <li>Increment (++)</li>
+        <li>Decrement (--)</li>
+    </ol>
+
+    <dl>
+        <dt>
+            <h2>A. Addition (+)</h2>
+        </dt>
+        <dd>
+            <h3>Example :</h3>
+            <samp>
+                let a = 10; <br>
+                let b = 20; <br>
+
+                let c = a + b; <br>
+                console.log(c);
+            </samp>
+        </dd>
+    </dl>
+
+    <dl>
+        <dt>
+            <h2>B. Subtraction (-)</h2>
+        </dt>
+        <dd>
+            <h3>Example :</h3>
+            <samp>
+                let d = 12; <br>
+                let e = 10; <br>
+
+                let f = e - d; <br>
+                console.log(f);
+            </samp>
+        </dd>
+    </dl>
+
+    <dl>
+        <dt>
+            <h2>C. Multiplication (*)</h2>
+        </dt>
+        <dd>
+            <h3>Example :</h3>
+            <samp>
+                let g = 10; <br>
+                let h = 2; <br>
+
+                let i = g * h; <br>
+                console.log(i);
+            </samp>
+        </dd>
+    </dl>
+
+    <dl>
+        <dt>
+            <h2>D. Division (/)</h2>
+        </dt>
+        <dd>
+            <h3>Example :</h3>
+            <samp>
+                let j = 100; <br>
+                let k = 5; <br>
+
+                let l = j / k; <br>
+                console.log(l);
+            </samp>
+        </dd>
+    </dl>
+
+    <dl>
+        <dt>
+            <h2>E. Modulus (%)</h2>
+        </dt>
+        <dd>
+            <h3>Example :</h3>
+            <samp>
+                let m = 20; <br>
+                let n = 2; <br>
+
+                let o = m % 2; <br>
+                console.log(o);
+            </samp>
+        </dd>
+    </dl>
+
+    <dl>
+        <dt>
+            <h2>F. Exponentiation (**)</h2>
+        </dt>
+        <dd>
+            <h3>Example :</h3>
+            <samp>
+                let p = 12; <br>
+                let q = 2; <br>
+
+                let r = p ** q; <br>
+                console.log(r);
+            </samp>
+        </dd>
+    </dl>
+
+    <dl>
+        <dt>
+            <h2>G. Increment (++)</h2>
+        </dt>
+        <dd>
+            <ol>
+                <li>Pre-increment (++x)</li>
+                <li>Post-increment (x++)</li>
+            </ol>
+            <h3>Example : 1</h3>
+            <samp>
+                let s = 12; <br>
+                let t = ++s; <br>
+
+                console.log(t);
+            </samp>
+            <h3>Example : 2</h3>
+            <samp>
+                let u = 15; <br>
+                let v = u++; <br>
+
+                console.log(v);
+            </samp>
+        </dd>
+    </dl>
+
+    <dl>
+        <dt>
+            <h2>H. Decrement (--)</h2>
+        </dt>
+        <dd>
+            <ol>
+                <li>Pre-decrement (--x)</li>
+                <li>Post-decrement (x--)</li>
+            </ol>
+            <h3>Example : 1</h3>
+            <samp>
+                let w = 10; <br>
+                let x = --w; <br>
+
+                console.log(x);
+            </samp>
+            <h3>Example : 2</h3>
+            <samp>
+                let y = 20; <br>
+                let z = y--; <br>
+
+                console.log(z);
+            </samp>
+        </dd>
+    </dl>
+
+    <dl>
+        <dt>
+            <h2>2. Assignment Operators</h2>
+        </dt>
+        <dd>
+            The assignment operators in JavaScript are used to assign a value to a variable.
+        </dd>
+    </dl>
+
+    <h2>Assignment Operators types :</h2>
+    <ol type="A">
+        <li>Simple assignment (=)</li>
+        <li>Addition assignment (+=)</li>
+        <li>Subtraction assignment (-=)</li>
+        <li>Multiplication assignment (*=)</li>
+        <li>Division assignment (/=)</li>
+        <li>Modulus assignment (%=)</li>
+        <li>Exponentiation assignment (**=)</li>
+    </ol>
+
+    <dl>
+        <dt>
+            <h2>A. Simple assignment (=)</h2>
+        </dt>
+        <dd>
+            <h3>Example :</h3>
+            <samp>
+                var a = 10;
+            </samp>
+        </dd>
+    </dl>
+
+    <dl>
+        <dt>
+            <h2>B. Addition assignment (+=)</h2>
+        </dt>
+        <dd>
+            <h3>Example :</h3>
+            <samp>
+                var aa = 20; <br>
+                aa += 5; <br>
+                console.log(aa);
+            </samp>
+        </dd>
+    </dl>
+
+    <dl>
+        <dt>
+            <h2>C. Subtraction assignment (-=)</h2>
+        </dt>
+        <dd>
+            <h3>Example :</h3>
+            <samp>
+                var aa = 10; <br>
+                aa -= 2; <br>
+                console.log(aa);
+            </samp>
+        </dd>
+    </dl>
+
+    <dl>
+        <dt>
+            <h2>D. Multiplication assignment (*=)</h2>
+        </dt>
+        <dd>
+            <h3>Example :</h3>
+            <samp>
+                var aa = 10; <br>
+                aa *= 2; <br>
+                console.log(aa);
+            </samp>
+        </dd>
+    </dl>
+
+    <dl>
+        <dt>
+            <h2>E. Division assignment (/=)</h2>
+        </dt>
+        <dd>
+            <h3>Example :</h3>
+            <samp>
+                var aa = 100; <br>
+                aa /= 5; <br>
+                console.log(aa);
+            </samp>
+        </dd>
+    </dl>
+
+    <dl>
+        <dt>
+            <h2>F. Modulus assignment (%=)</h2>
+        </dt>
+        <dd>
+            <h3>Example :</h3>
+            <samp>
+                var aa = 50; <br>
+                aa %= 5; <br>
+                console.log(aa);
+            </samp>
+        </dd>
+    </dl>
+
+    <dl>
+        <dt>
+            <h2>G. Exponentiation assignment (**=)</h2>
+        </dt>
+        <dd>
+            <h3>Example :</h3>
+            <samp>
+                var aa = 12; <br>
+                aa **= 2; <br>
+                console.log(aa);
+            </samp>
+        </dd>
+    </dl>
+
+    <dl>
+        <dt>
+            <h2>3. Comparision operators</h2>
+        </dt>
+        <dd>
+            The comparison operators in JavaScript are used to compare two values and return a boolean value (true or false) depending on the result of the comparison.
+        </dd>
+    </dl>
+
+    <h2>Comparision operators types :</h2>
+    <ol type="A">
+        <li>Equal to (==)</li>
+        <li>Not equal to (!=)</li>
+        <li>Strict equal to (===)</li>
+        <li>Strict not equal to (!==)</li>
+        <li>Greater than (>)</li>
+        <li>Less than (<)</li>
+        <li>Greater than or equal to (>=)</li>
+        <li>Less than or equal to (<=)</li>
+    </ol>
+
+    <dl>
+        <dt>
+            <h2>A. Equal to (==)</h2>
+        </dt>
+        <dd>
+            <h3>Example :</h3>
+            <samp>
+                var aa = 10; <br>
+                var bb = 10; <br>
+                console.log(aa == bb);
+            </samp>
+        </dd>
+    </dl>
+
+    <dl>
+        <dt>
+            <h2>B. Not equal to (!=)</h2>
+        </dt>
+        <dd>
+            <h3>Example :</h3>
+            <samp>
+                var aa = 10; <br>
+                var bb = 20; <br>
+                console.log(aa != bb);
+            </samp>
+        </dd>
+    </dl>
+
+    <dl>
+        <dt>
+            <h2>C. Strict equal to (===)</h2>
+        </dt>
+        <dd>
+            <h3>Example :</h3>
+            <samp>
+                var aa = 10; <br>
+                var bb = "20"; <br>
+                console.log(aa === bb);
+            </samp>
+        </dd>
+    </dl>
+
+    <dl>
+        <dt>
+            <h2>D. Strict not equal to (!==)</h2>
+        </dt>
+        <dd>
+            <h3>Example :</h3>
+            <samp>
+                var aa = 10; <br>
+                var bb = "20"; <br>
+                console.log(aa !== bb);
+            </samp>
+        </dd>
+    </dl>
+
+    <dl>
+        <dt>
+            <h2>E. Greater than (>)</h2>
+        </dt>
+        <dd>
+            <h3>Example :</h3>
+            <samp>
+                var aa = 20; <br>
+                var bb = 10; <br>
+                console.log(aa > bb);
+            </samp>
+        </dd>
+    </dl>
+
+    <dl>
+        <dt>
+            <h2>F. Less than (<)</h2>
+        </dt>
+        <dd>
+            <h3>Example :</h3>
+            <samp>
+                var aa = 10; <br>
+                var bb = 20; <br>
+                console.log(aa < bb);
+            </samp>
+        </dd>
+    </dl>
+
+    <dl>
+        <dt>
+            <h2>G. Greater than or equal to (>=)</h2>
+        </dt>
+        <dd>
+            <h3>Example :</h3>
+            <samp>
+                var aa = 10; <br>
+                var bb = 10; <br>
+                console.log(aa >= bb);
+            </samp>
+        </dd>
+    </dl>
+
+    <dl>
+        <dt>
+            <h2>H. Less than or equal to (<=)</h2>
+        </dt>
+        <dd>
+            <h3>Example :</h3>
+            <samp>
+                var aa = 10; <br>
+                var bb = 10; <br>
+                console.log(aa <= bb);
+            </samp>
+        </dd>
+    </dl>
+
+    <dl>
+        <dt>
+            <h2>4. Logical Operators</h2>
+        </dt>
+        <dd>
+            Logical operators are typically used with Boolean (logical) values; when they are, they return a Boolean value.
+        </dd>
+    </dl>
+
+    <h2>Logical operators types :</h2>
+    <ol type="A">
+        <li>AND (&&)</li>
+        <li>OR (||)</li>
+        <li>NOT (!)</li>
+    </ol>
+
+    <dl>
+        <dt>
+            <h2>A. AND (&&)</h2>
+        </dt>
+        <dd>
+            <h3>Example :</h3>
+            <samp>
+                var xx = 5; <br>
+                var yy = 10; <br>
+
+                if (xx < 10 && yy > 5) { <br>
+                console.log("Both conditions are true"); <br>
+                } else { <br>
+                console.log("At least one condition is false"); <br>
+                }
+            </samp>
+        </dd>
+    </dl>
+
+    <dl>
+        <dt>
+            <h2>B. OR (||)</h2>
+        </dt>
+        <dd>
+            <h3>Example :</h3>
+            <samp>
+                var xx = 5; <br>
+                var yy = 10; <br>
+
+                if (xx < 10 || yy < 5) { <br>
+                console.log("At least one condition is true"); <br>
+                } else { <br>
+                console.log("Both conditions are false"); <br>
+                }
+            </samp>
+        </dd>
+    </dl>
+
+    <dl>
+        <dt>
+            <h2>C. NOT (!)</h2>
+        </dt>
+        <dd>
+            <h3>Example :</h3>
+            <samp>
+                var xx = 5; <br>
+                var yy = 10; <br>
+
+                if (!(xx > 10)) { <br>
+                console.log("x is not greater than 10"); <br>
+                } <br>
+
+                if (!(yy < 5)) { <br>
+                console.log("y is not less than 5"); <br>
+                }
+            </samp>
+        </dd>
+    </dl>
+
+    <dl>
+        <dt>
+            <h2>5. Conditional (Ternary) Operator</h2>
+        </dt>
+        <dd>
+            The conditional operator is the only JavaScript operator that takes three operands. The operator can have one of two values based on a condition.
+        </dd>
+    </dl>
+
+    <dl>
+        <dt>
+            <h2>Conditional (Ternary) Operator</h2>
+        </dt>
+        <dd>
+            <h3>Example :</h3>
+            <samp>
+                var xx = 5; <br>
+                var result = xx > 10 ? "xx is greater than 10" : "xx is not greater than 10"; <br>
+
+                console.log(result);
+            </samp>
+        </dd>
+    </dl>
+
+    <dl>
+        <dt>
+            <h2>6. Bitwise Operators</h2>
+        </dt>
+        <dd>
+            A bitwise operator treats their operands as a set of 32 bits (zeros and ones), rather than as decimal, hexadecimal, or octal numbers. For example, the decimal number nine has a binary representation of 1001.
+        </dd>
+    </dl>
+
+    <h2>Bitwise Operators Types :</h2>
+    <ol type="A">
+        <li>AND operator (&)</li>
+        <li>OR operator (|)</li>
+        <li>XOR operator (^)</li>
+        <li>NOT operator (~)</li>
+        <li>Left shift operator (<<)</li>
+        <li>Right Shift operator (>>)</li>
+        <li>Unsigned Right Shift operator (>>>)</li>
+    </ol>
+
+    <dl>
+        <dt>
+            <h2>A. AND operators (&)</h2>
+        </dt>
+        <dd>
+            <h3>Example :</h3>
+            <samp>
+                var aa = 10;
+                var bb = 20;
+
+                var result = aa & bb;
+                console.log(result);
+            </samp>
+        </dd>
+    </dl>
+
+    <dl>
+        <dt>
+            <h2>B. OR operators (|)</h2>
+        </dt>
+        <dd>
+            <h3>Example :</h3>
+            <samp>
+                var aa = 10;
+                var bb = 20;
+
+                var result = aa | bb;
+                console.log(result);
+            </samp>
+        </dd>
+    </dl>
+
+    <dl>
+        <dt>
+            <h2>C. XOR (^)</h2>
+        </dt>
+        <dd>
+            <h3>Example :</h3>
+            <samp>
+                var aa = 10;
+                var bb = 20;
+
+                var result = aa ^ bb;
+                console.log(result);
+            </samp>
+        </dd>
+    </dl>
+
+    <dl>
+        <dt>
+            <h2>D. NOT</h2>
+        </dt>
+        <dd>
+            <h3>Example :</h3>
+            <samp>
+                var aa = 10;
+                var bb = -16;
+
+                console.log(~aa);
+                console.log(~bb);
+            </samp>
+        </dd>
+    </dl>
+
+    <dl>
+        <dt>
+            <h2>E. Left shift</h2>
+        </dt>
+        <dd>
+            <h3>Example :</h3>
+            <samp>
+                var aa = 8;
+                var bb = 3;
+
+                var result = aa << bb;
+                console.log(result);
+            </samp>
+        </dd>
+    </dl>
+
+    <dl>
+        <dt>
+            <h2>F. Right shift operator (>>)</h2>
+        </dt>
+        <dd>
+            <h3>Example :</h3>
+            <samp>
+                var aa = 5;
+                var bb = 2;
+
+                var result = aa >> bb;
+                console.log(result);
+            </samp>
+        </dd>
+    </dl>
+
+    <dl>
+        <dt>
+            <h2>G. Unsigned Right shift operator (>>>)</h2>
+        </dt>
+        <dd>
+            <h3>Example :</h3>
+            <samp>
+                var aa = 8;
+                var bb = 2;
+
+                var result = aa >>> bb;
+                console.log(result);
+            </samp>
+        </dd>
+    </dl>
+
+    <dl>
+        <dt>
+            <h2>7. String Operators</h2>
+        </dt>
+        <dd>
+            In addition to the comparison operators, which can be used on string values, the concatenation operator (+) concatenates two string values together, returning another string that is the union of the two operand strings.
+        </dd>
+    </dl>
+
+    <dl>
+        <dt>
+            <h3>Example :</h3>
+        </dt>
+        <dd>
+            <samp>
+                console.log("Hello" + "World");
+            </samp>
+        </dd>
+    </dl>
+
+    <dl>
+        <dt>
+            <h2>8. Comma Operators</h2>
+        </dt>
+        <dd>
+            The comma operator (,) evaluates both of its operands and returns the value of the last operand. This operator is primarily used inside a for loop, to allow multiple variables to be updated each time through the loop.
+        </dd>
+    </dl>
+
+    <dl>
+        <dt>
+            <h3>Example :</h3>
+        </dt>
+        <dd>
+            <samp>
+                var aa = 10, bb = 20; <br>
+                var result = (aa++, bb++, aa + bb); <br>
+
+                console.log(aa); <br>
+                console.log(bb); <br>
+                console.log(result);
+            </samp>
+        </dd>
+    </dl>
+
+    <dl>
+        <dt>
+            <h2>9. Relational Operators</h2>
+        </dt>
+        <dd>
+            A relational operator compares its operands and returns a Boolean value based on whether the comparison is true.
+        </dd>
+    </dl>
+
+    <dl>
+        <dt>
+            <h3>Example :</h3>
+        </dt>
+        <dd>
+            <samp>
+                var person = {
+                    Brand: "Apple",
+                    model: "xxxx",
+                    color: "Black",
+                }
+                new in 
+            </samp>
+        </dd>
+    </dl>
+
+    <dl>
+        <dt>
+            <h2>10. BigInt Operator</h2>
+        </dt>
+        <dd>
+            In JavaScript, BigInt is a numeric data type that allows the representation of integers of arbitrary length, beyond the limit of the Number data type.
+        </dd>
+    </dl>
+
+    <dl>
+        <dt>
+            <h2>Example :</h2>
+        </dt>
+        <dd>
+            <samp>
+                var aa = 326745236536536516541n;
+                var bb = 625328787327382678326786n;
+
+                console.log(aa + bb);
+            </samp>
+        </dd>
+    </dl>
+
+    <dl>
+        <dt>
+            <h2>11. Unary Operator</h2>
+        </dt>
+        <dd>
+            In JavaScript, unary operators are operators that operate on a single operand.
+        </dd>
+    </dl>
+
+    <h2>Unary operators types :</h2>
+    <ol>
+        <li>Plus (+)</li>
+        <li>Negative (-)</li>
+        <li>Logical NOT (!)</li>
+        <li>Bitwise NOT (~)</li>
+        <li>typeof</li>
+        <li>void</li>
+        <li>delete</li>
+    </ol>
+
+    <dl>
+        <dt>
+            <h2>Plus (+)</h2>
+        </dt>
+        <dd>
+            <h3>Example :</h3>
+            <samp>
+                var aa = 10;
+                var bb = "10";
+
+                var result = +aa;
+                var result1 = +bb;
+                console.log(result);
+                console.log(result1);
+            </samp>
+        </dd>
+    </dl>
+
+    <dl>
+        <dt>
+            <h2>Negative (-)</h2>
+        </dt>
+        <dd>
+            <h3>Example :</h3>
+            <samp>
+                var aa = 10;
+                var bb = "10";
+
+                var result = -aa;
+                var result1 = -bb;
+                console.log(result);
+                console.log(result1);
+            </samp>
+        </dd>
+    </dl>
+
+    <dl>
+        <dt>
+            <h2>Logical NOT (!)</h2>
+        </dt>
+        <dd>
+            <h3>Example :</h3>
+            <samp>
+                var aa = 10;
+                var bb = 15;
+
+                var result = !(aa > bb);
+                console.log(result);
+            </samp>
+        </dd>
+    </dl>
+
+    <dl>
+        <dt>
+            <h2>Bitwise NOT (~)</h2>
+        </dt>
+        <dd>
+            <h3>Example :</h3>
+            <samp>
+                var aa = 10;
+    
+                var result = ~aa;
+                console.log(result);
+            </samp>
+        </dd>
+    </dl>
+
+    <dl>
+        <dt>
+            <h2>typeof</h2>
+        </dt>
+        <dd>
+            <h3>Example :</h3>
+            <samp>
+                var aa = 10;
+                var bb = "10";
+
+                var result = typeof aa;
+                var result1 = typeof bb;
+                console.log(result);
+                console.log(result1);
+            </samp>
+        </dd>
+    </dl>
+
+    <dl>
+        <dt>
+            <h2>delete</h2>
+        </dt>
+        <dd>
+            <h3>Example :</h3>
+            <samp>
+                mobile = {
+                    Brand: Jaguar,
+                    model: "...",
+                    color: "Light Gray"
+                }
+                delete mobile.model;
+            </samp>
+        </dd>
+    </dl>
+
+
+
+
+
+
+
+    <script src="main.js"></script>
+</body>
+</html>
